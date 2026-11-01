@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=B9KthcApBrrK&format=png&color=000000" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&family=Unbounded:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="snake.io.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake.io</title>
+</head>
+<body>
+    <div id="box">
+        <div id="scoreboard">
+            <span class="label">Score</span>
+            <span id="score">0</span>
+        </div>
+        <canvas id="canvas"></canvas>
+        <div id="overlay">
+            <h1 id="overlay-title">Snake.io</h1>
+            <p id="overlay-text">Steer with your mouse. Hold click or Space to boost. Eat glowing orbs, and don&rsquo;t touch other snakes or the wall.</p>
+            <button id="play" type="button">Play</button>
+        </div>
+    </div>
+<script src="snake.io.js" defer></script>
+</body>
+</html>
